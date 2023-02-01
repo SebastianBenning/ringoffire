@@ -1,0 +1,48 @@
+.start-screen {
+    background-image: url('/assets/img/back-img.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 100%;
+    }
+
+    span {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 25%;
+        margin: auto;
+
+        button {
+            background: transparent;
+            font-size: 60px;
+            background: #F61300;
+            background: linear-gradient(to right, #F61300 0%, #ff442e 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            border-radius: 10px;
+            border: none;
+        }
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 100px;
+        background: #F61300;
+        background: linear-gradient(to right, #F61300 0%, #ff442e 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+
+    }
+
+
+}
